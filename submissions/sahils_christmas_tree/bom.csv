@@ -1,0 +1,6 @@
+"Id","Designator","Quantity","Footprint","Supplier","ref","Notes"
+"WS2812B","LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",12,WS2812B,Adafruit,1655,adafruit.com/product/1655
+"C","WCAP-CSGP_0603_R",12,"C",Würth Elektronik Group,WCAP-CSGP_0603_R,snapeda.com/parts/885012206046/W%C3%BCrth%20Elektronik/view-part/?ref=search&t=WCAP-CSGP_0603
+"U2","XIAO-ESP32S3-DIP",1,"XIAO-ESP32-S3-DIP",Seeed Studio,ESP32S3-DIP,seeedstudio.com/XIAO-ESP32S3-p-5627.html
+"C1","CAP_EEEFC1E101P",1,"C_Polarized",Panasonic,EEE-FC1E101P,snapeda.com/parts/EEE-FC1E101P/Panasonic/view-part/?ref=search&t=EEEFC1E101P
+"SW_Push","SW_PUSH_6mm",3,"SW_Push",Same Sky (Formerly CUI Devices),TS02-66-70-BK-160-LCR-D,digikey.com/short/m888d215
