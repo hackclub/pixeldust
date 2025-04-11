@@ -1,0 +1,4 @@
+Comment,Footprint,Quantity,LCSC
+SK6812MINI,LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,36,
+XIAO-RP2040-DIP	,Seeed Studio XIAO Series Library:XIAO-RP2040-DIP,1,
+DHT11,Sensor:Aosong_DHT11_5.5x12.0_P2.54mm,1,C117051
