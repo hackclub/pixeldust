@@ -1,0 +1,7 @@
+"Reference","Value","Footprint","Datasheet","Qty","DNP","Exclude from BOM","Exclude from Board"
+"C1","100uF","Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder","~","1","","",""
+"C2,C3,C4","4.7nF","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder","~","3","","",""
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15","WS2812B","LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm","https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf","15","","",""
+"SW1","RotaryEncoder_Switch","Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm","~","1","","",""
+"SW2,SW3","SW_Push","Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB","~","2","","",""
+"U1","XIAO-RP2040-SMD","OPL:XIAO-RP2040-SMD","","1","","",""
