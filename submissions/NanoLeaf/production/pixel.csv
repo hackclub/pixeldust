@@ -1,0 +1,7 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"C1","1","1000uf","","","","Capacitor_SMD:C_0402_1005Metric","~"
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33","33","WS2812B","","","","LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm","https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+"J1,J2","2","Conn_01x03","","","","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~"
+"J3","1","Barrel_Jack_Switch_Pin3Ring","","","","Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002","~"
+"U1","1","AMS1117-3.3","","","","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+"U2","1","MOUDLE-SEEEDUINO-XIAO-ESP32C3","","","","MOUDLE14P-SMD-2.54-21X17.8MM",""
