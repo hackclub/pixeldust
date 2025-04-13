@@ -1,0 +1,7 @@
+"Reference","Value","Footprint","Datasheet","Qty","DNP","Exclude from BOM","Exclude from Board"
+"C1","C","Capacitor_THT:CP_Radial_D6.3mm_P2.50mm","~","1","","",""
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33,D34,D35,D36,D37,D38,D39,D40,D41,D42,D43,D44,D45,D46,D47,D48,D49,D50,D51,D52,D53,D54,D55,D56,D57,D58,D59,D60,D61,D62,D63,D64","SK6812","LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm","https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf","64","","",""
+"R1","R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","1","","",""
+"S1","Keyswitch","Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB","~","1","","",""
+"SW1","RotaryEncoder_Switch","Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles","~","1","","",""
+"U1","XIAO-ESP32-C3-DIP","Seeed Studio XIAO Series Library:XIAO-ESP32S3-DIP","","1","","",""
