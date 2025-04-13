@@ -1,0 +1,158 @@
+{
+    "export_path": "/home/tux/sync/projects/led-glasses/led-glasses/panelized-led-glasses.kicad_pcb",
+    "hide_outside_reference_value": true,
+    "use_frame": true,
+    "tight": false,
+    "auto_tab": false,
+    "spacing": 1.6,
+    "max_tab_spacing": 50.0,
+    "cut_method": "mb",
+    "mb_diameter": 0.6,
+    "mb_spacing": 0.9,
+    "mb_offset": 0.0,
+    "tab_width": 3.6,
+    "vc_layer": "Cmts.User",
+    "merge_vcuts": true,
+    "merge_vcuts_threshold": 0.4,
+    "frame_width": 149,
+    "frame_height": 149,
+    "frame_top": 5,
+    "frame_bottom": 5,
+    "frame_left": 0,
+    "frame_right": 0,
+    "mill_fillets": 0.5,
+    "export_mill_fillets": false,
+    "netRenamePattern": "Board_{n}-{orig}",
+    "refRenamePattern": "Board_{n}-{orig}",
+    "pcb": [
+        {
+            "file": "led-glasses-leds.kicad_pcb",
+            "x": 0,
+            "y": 6600000.0,
+            "rotate": 0,
+            "disable_auto_tab": false,
+            "tabs": [
+                [
+                    7450000.0,
+                    2836666.666666668
+                ],
+                [
+                    38491666.66666667,
+                    5071666.666666668
+                ],
+                [
+                    71520000.0,
+                    4575000.0
+                ],
+                [
+                    102810000.0,
+                    4575000.0
+                ],
+                [
+                    139315000.0,
+                    6561666.666666668
+                ],
+                [
+                    135341666.6666667,
+                    45550000.0
+                ],
+                [
+                    118703333.33333334,
+                    47288333.33333334
+                ],
+                [
+                    97346666.66666667,
+                    47536666.66666667
+                ],
+                [
+                    21356666.66666667,
+                    45798333.33333334
+                ],
+                [
+                    33773333.333333336,
+                    46543333.33333334
+                ],
+                [
+                    47680000.0,
+                    44805000.0
+                ]
+            ]
+        },
+        {
+            "file": "led-glasses-leds-controller.kicad_pcb",
+            "x": 0.0,
+            "y": 60200899.9999831,
+            "rotate": 0,
+            "disable_auto_tab": false,
+            "tabs": [
+                [
+                    4470000.0,
+                    37394100.0000169
+                ],
+                [
+                    109266666.66666667,
+                    32924100.000016898
+                ],
+                [
+                    130623333.33333334,
+                    35159100.0000169
+                ]
+            ]
+        },
+        {
+            "file": "led-glasses-leds-meme.kicad_pcb",
+            "x": 17017534.0,
+            "y": 77065464.9999831,
+            "rotate": 0,
+            "disable_auto_tab": false,
+            "tabs": [
+                [
+                    9305799.333333336,
+                    3891201.6666835696
+                ],
+                [
+                    49784132.66666667,
+                    4884535.000016898
+                ],
+                [
+                    50032466.0,
+                    41141201.666683584
+                ],
+                [
+                    10299132.666666672,
+                    39154535.0000169
+                ]
+            ]
+        },
+        {
+            "file": "led-glasses-leds-empty.kicad_pcb",
+            "x": 0.0,
+            "y": 102140875.9999831,
+            "rotate": 0,
+            "disable_auto_tab": false,
+            "tabs": [
+                [
+                    19370000.0,
+                    34194124.0000169
+                ],
+                [
+                    37001666.66666667,
+                    35684124.0000169
+                ],
+                [
+                    73010000.0,
+                    34194124.0000169
+                ],
+                [
+                    99581666.66666667,
+                    32207457.33335024
+                ],
+                [
+                    135093333.33333334,
+                    36677457.33335024
+                ]
+            ]
+        }
+    ],
+    "hole": []
+}

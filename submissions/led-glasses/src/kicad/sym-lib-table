@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "led-glasses")(type "KiCad")(uri "${KIPRJMOD}/led-glasses.kicad_sym")(options "")(descr ""))
+)

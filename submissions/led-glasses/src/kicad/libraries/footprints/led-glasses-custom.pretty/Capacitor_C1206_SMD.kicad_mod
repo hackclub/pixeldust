@@ -1,0 +1,228 @@
+(footprint "Capacitor_C1206_SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "C?"
+		(at 0 -1.86875 0)
+		(layer "F.SilkS")
+		(uuid "ae424154-c5fe-4433-9d13-6448830a9441")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Capacitor_C1206_SMD"
+		(at 0 1.86875 0)
+		(layer "F.Fab")
+		(uuid "e6b64d56-2209-4816-bf0a-6bdc4f503540")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2804684-0f6d-47ec-897e-ec8588bdfc37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0159e5a-6db9-46fc-9a27-3f98a86f640a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb726105-9377-4a39-86f5-773185e87fcb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel_Q" "c6790e9475e1483991d2c64340b24e96"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "b9d7a70c-c4a2-4094-95cd-df0baa1c4349")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "3.2 1.6"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "54644454-14de-421f-8dba-2f888587aad9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.5635 0.94)
+		(end -2.5635 -0.94)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c24aa719-3d81-4783-b82e-9408f226b0aa")
+	)
+	(fp_line
+		(start -2.411 -1.0925)
+		(end -0.926 -1.0925)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "82832987-f6da-413b-af49-ba76c05732f8")
+	)
+	(fp_line
+		(start -0.926 1.0925)
+		(end -2.411 1.0925)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1160b986-5394-4f6a-82ba-ff008a9f947e")
+	)
+	(fp_line
+		(start 0.926 1.0925)
+		(end 2.411 1.0925)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "08675cc5-224b-4692-b971-2f5f00285325")
+	)
+	(fp_line
+		(start 2.411 -1.0925)
+		(end 0.926 -1.0925)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "907e3b67-93da-4c32-84e5-2acc57b057f4")
+	)
+	(fp_line
+		(start 2.5635 0.94)
+		(end 2.5635 -0.94)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "23ebc948-e229-4b9a-a923-90e6958dd491")
+	)
+	(fp_arc
+		(start -2.5635 -0.94)
+		(mid -2.518834 -1.047834)
+		(end -2.411 -1.0925)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "43596cbf-a92e-4e0b-8d37-34c52f667a97")
+	)
+	(fp_arc
+		(start -2.411 1.0925)
+		(mid -2.518834 1.047834)
+		(end -2.5635 0.94)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d59c5250-578e-4a8b-bce9-f21f0f876c7b")
+	)
+	(fp_arc
+		(start 2.411 -1.0925)
+		(mid 2.518834 -1.047834)
+		(end 2.5635 -0.94)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "26a97fad-83dc-475d-84d4-584ebb3a50b3")
+	)
+	(fp_arc
+		(start 2.5635 0.94)
+		(mid 2.518834 1.047834)
+		(end 2.411 1.0925)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3668eae3-969b-4f61-8b58-16c257850f27")
+	)
+	(fp_poly
+		(pts
+			(xy -1.54 0.8) (xy -1.557574 0.757574) (xy -1.6 0.74) (xy -1.642426 0.757574) (xy -1.66 0.8) (xy -1.642426 0.842426)
+			(xy -1.6 0.86) (xy -1.557574 0.842426)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "User.3")
+		(uuid "775fe540-65a5-44d4-8737-791275ec24ab")
+	)
+	(pad "1" smd rect
+		(at -1.5925 0)
+		(size 1.485 1.728)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9edbc756-e41b-4b17-b2b2-23629ac73afc")
+	)
+	(pad "2" smd rect
+		(at 1.5925 0)
+		(size 1.485 1.728)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d3ca010e-ee86-4ddd-8ac0-86b9f920354a")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
