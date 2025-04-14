@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 83.25,
+      "left": 3.6,
+      "attrs": { "env": "micropython-20210902-v1.17" }
+    },
+    {
+      "type": "wokwi-led-ring",
+      "id": "ring1",
+      "top": 0.64,
+      "left": -171.61,
+      "attrs": { "pixels": "16" }
+    },
+    {
+      "type": "wokwi-neopixel",
+      "id": "rgb1",
+      "top": 3.7,
+      "left": 8.8,
+      "rotate": 180,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-neopixel",
+      "id": "rgb2",
+      "top": 138.1,
+      "left": 191.2,
+      "rotate": 180,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-neopixel",
+      "id": "rgb3",
+      "top": 138.1,
+      "left": 229.6,
+      "rotate": 180,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-neopixel",
+      "id": "rgb4",
+      "top": 138.1,
+      "left": 268,
+      "rotate": 180,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-neopixel",
+      "id": "rgb5",
+      "top": 138.1,
+      "left": 306.4,
+      "rotate": 180,
+      "attrs": {}
+    },
+    { "type": "wokwi-ky-040", "id": "encoder1", "top": 184.1, "left": -269.6, "attrs": {} }
+  ],
+  "connections": [
+    [ "ring1:VCC", "pico:3V3", "red", [ "v128.24", "h238.19", "v-147.43" ] ],
+    [ "ring1:GND", "pico:GND.3", "black", [ "v0" ] ],
+    [ "ring1:DIN", "pico:GP0", "green", [ "v16.64", "h53.54", "v-57.6", "h28.8", "v-19.2" ] ],
+    [
+      "rgb1:VSS",
+      "pico:GND.8",
+      "green",
+      [ "v-1.5", "h-18.2", "v48", "h86.4", "v28.8", "h19.2", "v28.8" ]
+    ],
+    [ "rgb1:VDD", "pico:3V3", "green", [ "h96.2", "v74.4" ] ],
+    [ "rgb1:DIN", "pico:GP1", "green", [ "h-18.2", "v84" ] ],
+    [ "rgb2:VSS", "pico:GND.7", "green", [ "v0" ] ],
+    [ "rgb2:VDD", "pico:3V3", "green", [ "h0", "v19.2", "h-57.6", "v-38.4", "h-86.4" ] ],
+    [ "rgb2:DOUT", "rgb3:DIN", "green", [ "h0" ] ],
+    [ "rgb3:DOUT", "rgb4:DIN", "green", [ "h0" ] ],
+    [ "rgb4:DOUT", "rgb5:DIN", "green", [ "h0" ] ],
+    [ "rgb4:VDD", "rgb3:VDD", "green", [ "h9.6", "v19.2", "h-48", "v-9.6" ] ],
+    [ "rgb3:VDD", "rgb2:VDD", "green", [ "h0", "v19.2", "h-38.4" ] ],
+    [ "rgb5:VDD", "rgb4:VDD", "green", [ "h0", "v19.2", "h-28.8" ] ],
+    [ "rgb5:VSS", "rgb4:VSS", "green", [ "v-27.9", "h-37.6" ] ],
+    [ "rgb4:VSS", "rgb3:VSS", "green", [ "v-27.9", "h-37.6" ] ],
+    [ "rgb3:VSS", "rgb2:VSS", "green", [ "v-27.9", "h0.8" ] ],
+    [ "rgb2:DIN", "pico:GP2", "green", [ "h-210.4", "v-28.8" ] ],
+    [ "encoder1:GND", "pico:GND.4", "black", [ "h144", "v29.6" ] ],
+    [ "encoder1:VCC", "pico:3V3", "red", [ "h19.2", "v48.4", "h240", "v-86.4" ] ],
+    [ "encoder1:CLK", "pico:GP6", "green", [ "h115.2", "v-19.2" ] ],
+    [ "encoder1:DT", "pico:GP7", "green", [ "h124.8", "v-19.1" ] ],
+    [ "encoder1:SW", "pico:GP8", "green", [ "h134.4", "v-19.1" ] ]
+  ],
+  "dependencies": {}
+}
