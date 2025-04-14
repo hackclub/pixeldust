@@ -1,0 +1,1157 @@
+{
+  "schematics": {
+    "dc245426aae14eb9a685622f271fe03a": {
+      "name": "NeoPixel thermometer schematic",
+      "sheets": [
+        {
+          "name": "P1",
+          "id": 1,
+          "uuid": "a61968658eb24eefad9fc6efada29f13"
+        }
+      ]
+    }
+  },
+  "pcbs": {
+    "9404f6c488be40a982f87036262754e6": "NeoPixel thermometer PCB"
+  },
+  "panels": {},
+  "symbols": {
+    "b159fa7910364bcdb0a257412d0fb68b": {
+      "source": "39e6a1485edc4528a2358c0034b0662c|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Connectors\",\"USB Connectors\"]",
+      "title": "12402012E212A",
+      "version": "1732275994",
+      "type": 2
+    },
+    "521a4a4628cf4c88a4459b76a7857267": {
+      "source": "c5e24cb210a34717a984bebb737ec6ec|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Sensors\",\"Temperature and Humidity Sensor\"]",
+      "title": "AHT20_C2757850",
+      "version": "1708457236",
+      "type": 2
+    },
+    "bf765d0846984046b3ff7a26d4a2fc7d": {
+      "source": "54eabdd51a944cc4979f82364011068c|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]",
+      "title": "CAP",
+      "version": "1655976706",
+      "type": 2
+    },
+    "6736e6d4ba774222be9eefb2d77630ac": {
+      "source": "383d752f5c9243c8a82a054d0337f883|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Drawing-Symbol_A4",
+      "version": "1734001722",
+      "type": 20
+    },
+    "2a2f92abd56f4f8da0524bb79acdbbe4": {
+      "source": "1c18ed5a06f64a07bdb5b0cf525b3d9e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Ground-GND",
+      "version": "1649575362",
+      "type": 18
+    },
+    "558c350fd02f4a028ab8f60c9ee56397": {
+      "source": "e12c4faec1e04db7b3cc258725495423|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Gallium Nitride (GaN) Devices\",\"GaN Transistors(GaN HEMT)\"]",
+      "title": "LMG3522R030QRQSRQ1",
+      "version": "1742906422",
+      "type": 2
+    },
+    "314143c3624b45709e1ce501da97b379": {
+      "source": "a4f4c42cbd384d35a5d6c6cf6bffb3c6|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Power-5V",
+      "version": "1723254129",
+      "type": 18
+    },
+    "0fe1aac4a0254de7831cc8aa8fc129d8": {
+      "source": "8ea258ba25c64462be491552cf1f3086|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Through Hole Resistors\"]",
+      "title": "Res",
+      "version": "1742444708",
+      "type": 2
+    },
+    "6b17c75ad6f6499f9375e2988080b325": {
+      "source": "e8af78fa27414f418641154a99e2d8d0|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Short-Symbol",
+      "version": "1649576657",
+      "type": 22
+    },
+    "bcc04021dc9c4138bbe6a44cfaa72981": {
+      "source": "2ac8354482e249a79b829d2ba6e16870|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "SS14",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Diodes\",\"Schottky Diodes\"]",
+      "title": "SS14",
+      "version": "1731069307",
+      "type": 2
+    },
+    "d849cb68a3ac415e8a7b5229e419d72c": {
+      "source": "f296dd223bb64aae9725a45a67a36661|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Interface\",\"USB Converters\"]",
+      "title": "STUSB4500QTR",
+      "version": "1735272010",
+      "type": 2
+    },
+    "5c67ba5299ef46fe89ad3d335537f64c": {
+      "source": "6e63f4b0e8574b2e8ea732410e0ef0c0|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Test-Point",
+      "version": "1685024941",
+      "type": 2
+    },
+    "20b40b05bc1f49438887157c627926fc": {
+      "source": "23b9befce4fa4a53af300811c9966170|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "WS2812B-5050RGB",
+      "version": "1706204730",
+      "type": 2
+    },
+    "ce55c6b65c1340fab2ddb31d3d3651ef": {
+      "source": "8649af8c32024f7bbdfaf1c0487a9f1d|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "XIAO ESP32C3",
+      "version": "1713811365",
+      "type": 2
+    },
+    "9931535efb4f4ed3b51362d161d1fb09": {
+      "source": "d126a50cbb9a4a72858002e3c67525f9|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "100nF (104) ±10% 50V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]",
+      "title": "CC0603KRX7R9BB104",
+      "version": "1704423010",
+      "type": 2
+    },
+    "1bf421b5f12445cabbabc73d2c7984bc": {
+      "source": "eefd0b90536d41d2ae1ca82210c7b538|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]",
+      "title": "SCR0603J10K",
+      "version": "1715364642",
+      "type": 2
+    },
+    "5bc7fa1a21614b4b8e3e3e566eac9fa4": {
+      "source": "36dee81ca0ff4e9d95b4dc55f98125e0|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Optoelectronics\",\"RGB LEDs(Built-in IC)\"]",
+      "title": "XL-5050RGBC-WS2812B",
+      "version": "1744299549",
+      "type": 2
+    },
+    "bec75a463fe945689255eb49ec81ec96": {
+      "source": "172556a5a4dd498aadd4741590298767|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Optoelectronics\",\"RGB LEDs(Built-in IC)\"]",
+      "title": "WS2812B-V5_C2846931",
+      "version": "1729152965",
+      "type": 2
+    },
+    "a9f15ca341a54d96b4678afac48da26e": {
+      "source": "377af321d2ec43d49b81a18a21648279|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Optoelectronics\",\"RGB LEDs(Built-in IC)\"]",
+      "title": "WS2812B-B",
+      "version": "1744296669",
+      "type": 2
+    },
+    "df0d9fc92d3d4385978211009e5d282b": {
+      "source": "c7c5561b3a534aa98ac4c22621013c75|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "100nF (104) ±10% 10V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]",
+      "title": "GRM033R61A104KE15D",
+      "version": "1722967259",
+      "type": 2
+    },
+    "cbfe3f3bd42c496f84b0cdd5c4a637a5": {
+      "source": "1eab50de005c4ea7b3f97449e24958e7|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "10KΩ (1002) ±1%",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]",
+      "title": "0603WAF1002T5E",
+      "version": "1717047735",
+      "type": 2
+    }
+  },
+  "footprints": {
+    "35d1270423414f0cba553f26d6531d9e": {
+      "title": "C0201",
+      "source": "2203663679134feb963940f05bc050e7|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1659085771",
+      "type": 4,
+      "desc": ";0201;-;C0201",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CAP-SMD\"]"
+    },
+    "e4bd26bb180f4c7b8660cf92393b1a18": {
+      "title": "COMM-SMD_KQ-2801_V106",
+      "source": "e5e099eb63934650a94ba4b61aa0544c|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1702620911",
+      "type": 4,
+      "desc": ";QFN-32_5X5_EP3.7",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"COMM-SMD\"]"
+    },
+    "c01f6a417c6843fd867ec37846e72ae0": {
+      "title": "LED-SMD_4P-L5.0-W5.0-BR_WS2812B-5050RGB",
+      "source": "d55773fdaba047b393e32758208336c4|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1719292994",
+      "type": 4,
+      "desc": ";SMD-4_5.0X5.0X4.2P;LED-SMD_4P;LED5050",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"LED-SMD\"]"
+    },
+    "4410d0642e894373b16315e3e2052d55": {
+      "title": "QFN-24_L4.0-W4.0-P0.50-BL-EP2.8",
+      "source": "14b1708dce6b44128d331bbca6c3d2fd|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1721642192",
+      "type": 4,
+      "desc": ";QFN-24(4x4);QFN-24-EP(4x4);QFN-24;TQFN-24-EP(4x4);QFN-24_4x4x05P;UFQFN-24-EP;QFN24;QFN24_4x4;VFQFPN-24(4x4);WQFN4040-24;QFN24-4*4;QFN24_4*4;QFN-24_4X4",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"QFN-24\"]"
+    },
+    "3297c20b0e3f4d21bdb114583363f215": {
+      "title": "QFN-52_L12.0-W12.0-P0.65-TL_LMG3522R030RQSR",
+      "source": "e0e47382fee9499c82c91ced6b4d144a|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1681372768",
+      "type": 4,
+      "desc": ";VQFN-52;VQFN52_12X12;VQFN-52_12X12mm",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"QFN-52\"]"
+    },
+    "c9d553f30c97489d84681c9b628c8e7e": {
+      "title": "R0603",
+      "source": "b44c1b381d26462586b8a8d9fac22ec8|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1720420739",
+      "type": 4,
+      "desc": ";0603;-;1206;1608;0201;SMD;0805;---;2.2KR;R0603;R603;603;插件;Res2;0603R;ESD0603;0603-S;0603-R;LC-0603_R;RES0603;RES0603-SMD-2P;5101%;Res0603;ROHM Semiconductor",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"RES-SMD\"]"
+    },
+    "2e4e45d6d6334f86a54ba3d294a35c41": {
+      "title": "SENSOR-SMD_L3.0-W3.0-P1.00-BR",
+      "source": "9781d2b3705146f88cce5959ea3c3c02|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1709897507",
+      "type": 4,
+      "desc": ";SMD-6P,3x3mm;SMD",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SENSOR-SMD\"]"
+    },
+    "0d497d67f9394fd7803bab07a34ae998": {
+      "title": "SMA_L4.2-W2.6-LS5.3-RD",
+      "source": "38c54a24ee1a43459e746b9b09496493|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1651244149",
+      "type": 4,
+      "desc": ";SMA(DO-214AC);SMAG;DO-214AC(SMA);SMA;sma",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SMA\"]"
+    },
+    "8d201673b1c348229ae8b467b756819d": {
+      "title": "Test-Point-0.5mm",
+      "source": "d01a42a8254e45f0bd0ec817e27c68e4|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1685024941",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "b571b959354e4b5fa0e25f07b7ed1544": {
+      "title": "USB-SMD_TYPE-C16PIN-1",
+      "source": "61714e61ae154deaac02a98b5a85be44|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1657884745",
+      "type": 4,
+      "desc": ";SMD;Type-C16P;SMD-16P;USB_C_Receptacle_USB2.0;TYPE-C-16P-SMD",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"USB-SMD\"]"
+    },
+    "eebaed25b5c54f8ba5873b7f3b09bc62": {
+      "title": "C0603",
+      "source": "f499007f726c45dbbd59d7d6a82bc126|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1734501471",
+      "type": 4,
+      "desc": ";0603;1206;0805;0201;/;---;-;SMD;C0603;AAAAAA1;c0603;0603封装;Cap;CAP;0604;C0603_L;0603-CAP;1608;0704",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CAP-SMD\",\"\"]"
+    },
+    "d0a1b04d98eb4ed29ab4f0a7c4bbdf3c": {
+      "title": "LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC",
+      "source": "5670951c787247c68c0f379f7b38af4f|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1665554289",
+      "type": 4,
+      "desc": ";SMD5050",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"LED-SMD\",\"\"]"
+    },
+    "a7013e334f2349f38fb76896af0ffd62": {
+      "title": "LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1",
+      "source": "876d5bfa6d284832aedeeaa4d16a6466|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649993304",
+      "type": 4,
+      "desc": ";SMD5050;LED-RGB3050;5.5x5.0x1.6mmSMD;SMD,5x5.4mm;LED5050;LED-SMD_5050-4P;5050;5x5x1.6mm",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"LED-SMD\",\"\"]"
+    },
+    "d4ac3562d3d54b9fa483a409c2da5972": {
+      "title": "LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB",
+      "source": "976d48ca897e4f75918606fe0fa82702|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1652945065",
+      "type": 4,
+      "desc": ";SMD5050;LED-SMD_4P-L5.0-W5.0-P3.20-LS5.4;LED-SMD_4P",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"LED-SMD\",\"\"]"
+    }
+  },
+  "devices": {
+    "afd5462d8687419dbedb2ca43c80d6d1": {
+      "title": "12402012E212A",
+      "attributes": {
+        "LCSC Part Name": "Type-C 母",
+        "Supplier Part": "C5150972",
+        "Manufacturer": "Amphenol",
+        "Manufacturer Part": "12402012E212A",
+        "Supplier Footprint": "SMD",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20230904/1AC50813D61D39FDC7D46AE00E914630.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "b159fa7910364bcdb0a257412d0fb68b",
+        "Designator": "U?",
+        "Footprint": "b571b959354e4b5fa0e25f07b7ed1544",
+        "3D Model": "28218a917d964e75a2b76120d4acdbfb",
+        "3D Model Title": "USB-SMD_TYPE-C16PIN-1",
+        "3D Model Transform": "351.9678,301.181,0,180,0,0,0,-44.293,-43.307",
+        "Connector Type": "Type-C",
+        "Standard": "USB 2.0",
+        "Gender": "Female",
+        "Number of Contacts": "24P",
+        "Number of Ports": "1",
+        "Name": "={Manufacturer Part}",
+        "Description": "Connector Type:Type-C Standard:USB 2.0 Gender:Female Number of Contacts:24P Number of Ports:1"
+      },
+      "description": "Connector Type:Type-C Standard:USB 2.0 Gender:Female Number of Contacts:24P Number of Ports:1",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20240907/8E4CBE5C7C16C4BAB00DBEA034CD712F.jpg"
+      ],
+      "source": "0f7217d0e3414ef7800048bc63be6bb7|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1720593604",
+      "custom_tags": "[\"Connectors\",\"USB Connectors\"]"
+    },
+    "cb84eb5538ef4b5b8e1aab4f0d3ed35a": {
+      "title": "AHT20",
+      "attributes": {
+        "LCSC Part Name": "AHT20",
+        "Supplier Part": "C2757850",
+        "Manufacturer": "广州奥松",
+        "Manufacturer Part": "AHT20",
+        "Supplier Footprint": "SMD",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20231023/00557B34ED120268320A4810FF8DED4D.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "521a4a4628cf4c88a4459b76a7857267",
+        "Designator": "U?",
+        "Footprint": "2e4e45d6d6334f86a54ba3d294a35c41",
+        "3D Model": "11c3f5d7ac234aeeae24b6197902e371",
+        "3D Model Title": "SENSOR-SMD_L3.0-W3.0-P1.00-BL",
+        "3D Model Transform": "118.11,118.11,0,180,0,0,-0.001,0.001,0",
+        "Name": "={Manufacturer Part}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230105/99E70477210DFEB0E002524E2B5668D6.jpg"
+      ],
+      "source": "c15d62608d2542309024aa3e1efd6dde|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660168442",
+      "custom_tags": "[\"Sensors\",\"Temperature and Humidity Sensor\"]"
+    },
+    "7f93e66f57cc4355922f74b1b41752a5": {
+      "title": "CAP_0201",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "C?",
+        "Supplier Footprint": "0201",
+        "Symbol": "bf765d0846984046b3ff7a26d4a2fc7d",
+        "Footprint": "35d1270423414f0cba553f26d6531d9e",
+        "3D Model": "c3e75c3d90204c70b153866ab54c789f",
+        "3D Model Title": "C0201_L0.6-W0.3-H0.3",
+        "3D Model Transform": "23.622,11.811,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Name": "={Value}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "6ca72a50f5f9466799b41398d2421df6|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1655976799",
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]"
+    },
+    "7a3bf87c8cfa4ea9aaf929042ecb1bad": {
+      "title": "Drawing-Symbol_A4",
+      "attributes": {
+        "@Project Name": "Project Name",
+        "@Page Count": "3",
+        "@Update Date": "2021.11.05",
+        "@Create Date": "2021.11.05",
+        "@Schematic Name": "Schematic Name",
+        "@Page No": "1",
+        "@Page Name": "P1",
+        "Company": "EasyEDA.com",
+        "Reviewed": "",
+        "Version": "V1.0",
+        "Page Size": "A4",
+        "Drawn": "",
+        "Name": "",
+        "@Create Time": "",
+        "@Update Time": "",
+        "Border": "1",
+        "Width": "1170",
+        "Height": "825",
+        "Region Start": "1",
+        "X Region Count": "6",
+        "Y Region Count": "4",
+        "Blade Width": "10",
+        "Color": "",
+        "Title Block Position": "3",
+        "Title Block": "1",
+        "@Board Name": "",
+        "Symbol": "6736e6d4ba774222be9eefb2d77630ac",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "754952feec9e48d6afd574513e1ca00b|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1734001722",
+      "custom_tags": "[\"\",\"\"]"
+    },
+    "8d5ca454426b4371a398fb6ce57bf19f": {
+      "title": "Ground-GND",
+      "attributes": {
+        "Symbol": "2a2f92abd56f4f8da0524bb79acdbbe4",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "2e4e71fea06848c9a86eef0ed6338204|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649575370",
+      "custom_tags": "[]"
+    },
+    "f40e172d1d7c48289aff5543ad3941b8": {
+      "title": "LMG3522R030QRQSRQ1",
+      "attributes": {
+        "LCSC Part Name": "LMG3522R030QRQSRQ1",
+        "Supplier Part": "C22457192",
+        "Manufacturer": "TI(德州仪器)",
+        "Manufacturer Part": "LMG3522R030QRQSRQ1",
+        "Supplier Footprint": "VQFN-52(12x12)",
+        "JLCPCB Part Class": "",
+        "Datasheet": "https://www.ti.com.cn/cn/lit/ds/symlink/lmg3522r030-q1.pdf?ts=1738739168459&ref_url=https%253A%252F%252Fwww.ti.com.cn%252Fsitesearch%252Fzh-cn%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Dzh-CN%2526nr%253D8%2526searchTerm%253DLMG3522R030QRQSRQ1",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "558c350fd02f4a028ab8f60c9ee56397",
+        "Designator": "U?",
+        "Footprint": "3297c20b0e3f4d21bdb114583363f215",
+        "Name": "={Manufacturer Part}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20250208/0CD0DA85816379CBFB203924E0C80027.jpg"
+      ],
+      "source": "f4ad215e2f4f4cb4952a5cd41635707b|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1742907604",
+      "custom_tags": "[\"Gallium Nitride (GaN) Devices\",\"GaN Transistors(GaN HEMT)\"]"
+    },
+    "ec027c1b8bcb4b99ad64260b437ba4fc": {
+      "title": "Power-5V",
+      "attributes": {
+        "Global Net Name": "+5V",
+        "Name": "",
+        "Symbol": "314143c3624b45709e1ce501da97b379",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Footprint": "",
+        "Description": "Power-5V"
+      },
+      "description": "Power-5V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "b07959542b3b48a1a4118cf5708700b6|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1723254128",
+      "custom_tags": "[]"
+    },
+    "37658f0f34f44eb79aefc5ff71038078": {
+      "title": "Res_0603",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "R?",
+        "Supplier Footprint": "0603",
+        "Symbol": "0fe1aac4a0254de7831cc8aa8fc129d8",
+        "Footprint": "c9d553f30c97489d84681c9b628c8e7e",
+        "3D Model": "112863783b5b41f1b5254f87eedc7932",
+        "3D Model Title": "R0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Value": "10K",
+        "Name": "={Value}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "77e4e58c188a4330a8ecb535773aacb1|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1655970956",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "d835952b025d4a63bf7920d46440df43": {
+      "title": "Short-Symbol",
+      "attributes": {
+        "Symbol": "6b17c75ad6f6499f9375e2988080b325",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "2638d1cf62784ae09402c03377e083d2|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649576582",
+      "custom_tags": "[]"
+    },
+    "ca73e53f458943659fb3e66264c3110b": {
+      "title": "SS14_C2480",
+      "attributes": {
+        "LCSC Part Name": "电压:40V 电流:1A",
+        "Supplier Part": "C2480",
+        "Manufacturer": "MDD(辰达半导体)",
+        "Manufacturer Part": "SS14",
+        "Supplier Footprint": "SMA(DO-214AC)",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20240710/EF24798823EE33D63F154ED67BAC5E71.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "bcc04021dc9c4138bbe6a44cfaa72981",
+        "Designator": "D?",
+        "Footprint": "0d497d67f9394fd7803bab07a34ae998",
+        "3D Model": "80c6e983c0274dd387706e19fd4dc219",
+        "3D Model Title": "SMA_L4.2-W2.6-LS5.3-RD",
+        "3D Model Transform": "204.83943,103.346,0,0,0,0,-0.001,0.001,0",
+        "Diode Configuration": "Independent Type",
+        "Forward Voltage (Vf@If)": "550mV@1A",
+        "Reverse Voltage (Vr)": "40V",
+        "Rectified Current": "1A",
+        "Reverse Leakage Current (Ir)": "300uA@40V",
+        "Name": "={Manufacturer Part}",
+        "Description": "Diode Configuration:Independent Type Forward Voltage (Vf@If):550mV@1A Reverse Voltage (Vr):40V Rectified Current:1A Reverse Leakage Current (Ir):300uA@40V"
+      },
+      "description": "Diode Configuration:Independent Type Forward Voltage (Vf@If):550mV@1A Reverse Voltage (Vr):40V Rectified Current:1A Reverse Leakage Current (Ir):300uA@40V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230217/6D4FF331BAAF1455CE67137779F383A9.jpg"
+      ],
+      "source": "93c829a348834d679d8d8a059ea91636|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1695290581",
+      "custom_tags": "[\"Diodes\",\"Schottky Diodes\"]"
+    },
+    "169a254aec9f4d14946f5759d996628e": {
+      "title": "STUSB4500QTR",
+      "attributes": {
+        "LCSC Part Name": "独立USB PD接收控制器，具有短路到VBUS保护功能",
+        "Supplier Part": "C2678061",
+        "Manufacturer": "ST(意法半导体)",
+        "Manufacturer Part": "STUSB4500QTR",
+        "Supplier Footprint": "QFN-24-EP(4x4)",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20210606/33E93DD86F9F99EDBAF86753A743013D.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "d849cb68a3ac415e8a7b5229e419d72c",
+        "Designator": "U?",
+        "Footprint": "4410d0642e894373b16315e3e2052d55",
+        "3D Model": "93a242fba160433c87e2c9f14d0d757c",
+        "3D Model Title": "QFN-24_L4.0-W4.0-P0.50-BL-EP2.8",
+        "3D Model Transform": "158.267,158.267,0,0,0,0,0,0,0",
+        "Applications Function": "Controller",
+        "Protocol": "PD 2.0；PD 3.0",
+        "Supply Voltage": "3V；5.5V",
+        "Operating Temperature": "-40℃~+105℃",
+        "Name": "={Manufacturer Part}",
+        "Description": "Applications Function:Controller Protocol:PD 2.0；PD 3.0 Supply Voltage:3V；5.5V Supply Voltage:3V；5.5V Operating Temperature:-40℃~+105℃ Operating Temperature:-40℃~+105℃"
+      },
+      "description": "Applications Function:Controller Protocol:PD 2.0；PD 3.0 Supply Voltage:3V；5.5V Supply Voltage:3V；5.5V Operating Temperature:-40℃~+105℃ Operating Temperature:-40℃~+105℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230515/88CFABC86B55AC5BB510DB513BA6A61A.jpg"
+      ],
+      "source": "05864461541f4eba88976368b1ac04ed|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664480609",
+      "custom_tags": "[\"Interface\",\"USB Converters\"]"
+    },
+    "68fad383d5484f81a37c9ca5d5950270": {
+      "title": "Test-Point",
+      "attributes": {
+        "Designator": "TP?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "5c67ba5299ef46fe89ad3d335537f64c",
+        "Name": "",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Footprint": "8d201673b1c348229ae8b467b756819d",
+        "Description": "Test Point 测试点"
+      },
+      "description": "Test Point 测试点",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "385eb2954f5c4ecd87463074eb7477ee|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1685024941",
+      "custom_tags": "[]"
+    },
+    "37c048206b544216974d908589316fc1": {
+      "title": "WS2812B-5050RGB",
+      "attributes": {
+        "LCSC Part Name": "WS2812B-5050RGB",
+        "Supplier Part": "C2838584",
+        "Manufacturer": "",
+        "Manufacturer Part": "WS2812B-5050RGB",
+        "Supplier Footprint": "SMD-4_5.0X5.0X4.2P",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "20b40b05bc1f49438887157c627926fc",
+        "Designator": "LED?",
+        "Footprint": "c01f6a417c6843fd867ec37846e72ae0",
+        "3D Model": "48f5b40ec5684fd5bf1c6eb16b4c70e3",
+        "3D Model Title": "LED-SMD_4P-L5.0-W5.0-BR_WS2812B-5050RGB",
+        "3D Model Transform": "208.661,196.85,0,0,0,0,0,0,0",
+        "Name": "={Manufacturer Part}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "837f198bf79f4a50b952a1de1e4735fa|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1661374748",
+      "custom_tags": "[]"
+    },
+    "3dc93d52d8d547efa209d4df3dceae9c": {
+      "title": "XIAO ESP32C3",
+      "attributes": {
+        "LCSC Part Name": "XIAO ESP32C3",
+        "Supplier Part": "C19189385",
+        "Manufacturer": "",
+        "Manufacturer Part": "XIAO ESP32C3",
+        "Supplier Footprint": "QFN-32_5X5_EP3.7",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "ce55c6b65c1340fab2ddb31d3d3651ef",
+        "Designator": "U?",
+        "Footprint": "e4bd26bb180f4c7b8660cf92393b1a18",
+        "Name": "={Manufacturer Part}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "9a1bf3604cf84bd9a147a4c996e79ac0|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1710486010",
+      "custom_tags": "[]"
+    },
+    "89163b0a34954a7ba62c819b5c1b7fa0": {
+      "title": "CC0603KRX7R9BB104",
+      "attributes": {
+        "LCSC Part Name": "100nF ±10% 50V",
+        "Supplier Part": "C14663",
+        "Manufacturer": "YAGEO(国巨)",
+        "Manufacturer Part": "CC0603KRX7R9BB104",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20180910/C282072_33301C7F631E79921B82A8DAC6BCC5B3.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "9931535efb4f4ed3b51362d161d1fb09",
+        "Designator": "C?",
+        "Footprint": "eebaed25b5c54f8ba5873b7f3b09bc62",
+        "3D Model": "624118aa3cc7497086c383c2d72e0852",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rated": "",
+        "Temperature Coefficient": "",
+        "Name": "={Value}",
+        "Device": "a299e4f29fd2469688f76621c3d59c4d",
+        "Description": "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:"
+      },
+      "description": "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221228/A1C16CCD094EED3DDED0350676797070.jpg"
+      ],
+      "source": "a299e4f29fd2469688f76621c3d59c4d|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664226060",
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]"
+    },
+    "f97cd85c11bb412cb2e41a1d887f732e": {
+      "title": "SCR0603J10K",
+      "attributes": {
+        "LCSC Part Name": "厚膜电阻 10kΩ ±5% 100mW",
+        "Supplier Part": "C3017715",
+        "Manufacturer": "VO(翔胜)",
+        "Manufacturer Part": "SCR0603J10K",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20220513/247AF9639BA21CF93567DC289CCC6A22.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "1bf421b5f12445cabbabc73d2c7984bc",
+        "Designator": "R?",
+        "Footprint": "c9d553f30c97489d84681c9b628c8e7e",
+        "3D Model": "112863783b5b41f1b5254f87eedc7932",
+        "3D Model Title": "R0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Type": "Thick Film Resistors",
+        "Value": "10kΩ",
+        "Tolerance": "±5%",
+        "Power(Watts)": "",
+        "Overload Voltage (Max)": "",
+        "Operating Temperature Range": "-55℃~+155℃",
+        "Name": "={Value}",
+        "Device": "1b3dcc8cf6334acb9fe4410959372455",
+        "Description": "Type:Thick Film Resistors Resistance: Tolerance:±5% Tolerance:±5% Power(Watts): Overload Voltage (Max): Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃"
+      },
+      "description": "Type:Thick Film Resistors Resistance: Tolerance:±5% Tolerance:±5% Power(Watts): Overload Voltage (Max): Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230105/D306C970C1B28447B2C45FE46B2586AE.jpg"
+      ],
+      "source": "1b3dcc8cf6334acb9fe4410959372455|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1694526002",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "23324d91492541f696704a58d12da8d3": {
+      "title": "XL-5050RGBC-WS2812B",
+      "attributes": {
+        "LCSC Part Name": "XL-5050RGBC-WS2812B",
+        "Supplier Part": "C2843785",
+        "Manufacturer": "XINGLIGHT(成兴光)",
+        "Manufacturer Part": "XL-5050RGBC-WS2812B",
+        "Supplier Footprint": "SMD5050",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20240412/E1004CAA80592E31D08BFE019083806F.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "5bc7fa1a21614b4b8e3e3e566eac9fa4",
+        "Designator": "LED?",
+        "Footprint": "d0a1b04d98eb4ed29ab4f0a7c4bbdf3c",
+        "3D Model": "72acf5c281794005b750ff06d0b573b0",
+        "3D Model Title": "LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC",
+        "3D Model Transform": "212.598,196.85,0,270,0,0,0,0,0",
+        "Name": "={Manufacturer Part}",
+        "Device": "3d79d42fd47849b494ba7ecb4c92d610",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230107/F53EEE17937F2DCC5ACD47E7621F1A6C.jpg"
+      ],
+      "source": "3d79d42fd47849b494ba7ecb4c92d610|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1677584981",
+      "custom_tags": "[\"Optoelectronics\",\"RGB LEDs(Built-in IC)\"]"
+    },
+    "86c34a73a46b42f799c20615008bcd7d": {
+      "title": "WS2812B-V5_C2846931",
+      "attributes": {
+        "LCSC Part Name": "WS2812B-V5",
+        "Supplier Part": "C2846931",
+        "Manufacturer": "worldsemi",
+        "Manufacturer Part": "WS2812B-V5",
+        "Supplier Footprint": "SMD5050",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20211224/E1D51490BF3990BC3747CA833459C67A.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "bec75a463fe945689255eb49ec81ec96",
+        "Designator": "LED?",
+        "Footprint": "a7013e334f2349f38fb76896af0ffd62",
+        "3D Model": "f511df006eb14ecdbc9bf2fa9b259b61",
+        "3D Model Title": "LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1",
+        "3D Model Transform": "214.96,196.85,0,0,0,0,0,0,0",
+        "Name": "={Manufacturer Part}",
+        "Device": "49682ae2e2754fe0997a60e0ebcdbeed",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20240627/CE489FFC6BB0A2B712EC49FBB5A9EA4E.jpg"
+      ],
+      "source": "49682ae2e2754fe0997a60e0ebcdbeed|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1665258060",
+      "custom_tags": "[\"Optoelectronics\",\"RGB LEDs(Built-in IC)\"]"
+    },
+    "717c18a49d9747639065954f3af28145": {
+      "title": "WS2812B-B/W",
+      "attributes": {
+        "LCSC Part Name": "RGB三色",
+        "Supplier Part": "C114586",
+        "Manufacturer": "worldsemi",
+        "Manufacturer Part": "WS2812B-B/W",
+        "Supplier Footprint": "SMD5050",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20241202/1BD26D5ED2252DE9B45599514508943B.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "a9f15ca341a54d96b4678afac48da26e",
+        "Designator": "LED?",
+        "Footprint": "d4ac3562d3d54b9fa483a409c2da5972",
+        "3D Model": "668413c7fd41483a8a08c9febdee30c7",
+        "3D Model Title": "LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB",
+        "3D Model Transform": "212.598,196.85,0,0,0,0,0,0,0",
+        "Wavelength": "-",
+        "Luminous Intensity": "-",
+        "Fixed-Frequency Pwm Mode": "-",
+        "Data Transmission Rate": "-",
+        "Supply Voltage": "-",
+        "Quiescent Dissipation": "-",
+        "Lens Color": "-",
+        "Name": "={Manufacturer Part}",
+        "Device": "e49ff112b862408bb39ed437ecb6537a",
+        "Description": "Wavelength:- Luminous Intensity:- Fixed-Frequency Pwm Mode:- Data Transmission Rate:- Supply Voltage:- Supply Voltage:- Quiescent Dissipation:- Lens Color:-"
+      },
+      "description": "Wavelength:- Luminous Intensity:- Fixed-Frequency Pwm Mode:- Data Transmission Rate:- Supply Voltage:- Supply Voltage:- Quiescent Dissipation:- Lens Color:-",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230101/2A8D59AF58D596DFC44B9834900A15D9.jpg"
+      ],
+      "source": "e49ff112b862408bb39ed437ecb6537a|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1672375233",
+      "custom_tags": "[\"Optoelectronics\",\"RGB LEDs(Built-in IC)\"]"
+    },
+    "9ab2a21d5810475da902fdf30d92c6fe": {
+      "title": "GRM033R61A104KE15D",
+      "attributes": {
+        "LCSC Part Name": "100nF ±10% 10V",
+        "Supplier Part": "C76934",
+        "Manufacturer": "muRata(村田)",
+        "Manufacturer Part": "GRM033R61A104KE15D",
+        "Supplier Footprint": "0201",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20180307/C76934_15204090982891407723.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "df0d9fc92d3d4385978211009e5d282b",
+        "Designator": "C?",
+        "Footprint": "35d1270423414f0cba553f26d6531d9e",
+        "3D Model": "c3e75c3d90204c70b153866ab54c789f",
+        "3D Model Title": "C0201_L0.6-W0.3-H0.3",
+        "3D Model Transform": "23.622,11.811,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rated": "",
+        "Temperature Coefficient": "",
+        "Name": "={Value}",
+        "Description": "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:"
+      },
+      "description": "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221231/A4FDD98B27FC4CF119222A11B9B6A22C.jpg"
+      ],
+      "source": "60067e5b9b7f450a92017b576d9bcdb1|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1663443624",
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]"
+    },
+    "986497a03556400584df608c864ee9c5": {
+      "title": "0603WAF1002T5E",
+      "attributes": {
+        "LCSC Part Name": "厚膜电阻 10kΩ ±1% 100mW",
+        "Supplier Part": "C25804",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0603WAF1002T5E",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "cbfe3f3bd42c496f84b0cdd5c4a637a5",
+        "Designator": "R?",
+        "Footprint": "c9d553f30c97489d84681c9b628c8e7e",
+        "3D Model": "112863783b5b41f1b5254f87eedc7932",
+        "3D Model Title": "R0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Type": "Thick Film Resistors",
+        "Value": "10kΩ",
+        "Tolerance": "±1%",
+        "Power(Watts)": "",
+        "Overload Voltage (Max)": "",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Operating Temperature Range": "-55℃~+155℃",
+        "Name": "={Value}",
+        "Device": "b0602c6e20fc41faa226d9f001a9bead",
+        "Description": "Type:Thick Film Resistors Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃"
+      },
+      "description": "Type:Thick Film Resistors Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221229/1EB4D9C2547FDCC160797998C2DC26A2.jpg"
+      ],
+      "source": "b0602c6e20fc41faa226d9f001a9bead|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1717047735",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    }
+  },
+  "boards": {
+    "NeoPixel thermometer": {
+      "schematic": "dc245426aae14eb9a685622f271fe03a",
+      "pcb": "9404f6c488be40a982f87036262754e6"
+    }
+  },
+  "config": {
+    "title": "pixeldust",
+    "cbbProject": false,
+    "defaultSheet": "",
+    "editorVersion": "2.2.37.7"
+  }
+}
