@@ -1,0 +1,6 @@
+"Value","Footprint","Qty","LSCS"
+"AHT20","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","1",""
+"EC11","Keebio-Parts.pretty-master:RotaryEncoder_EC11","1","C2991196"
+"XIAO-ESP32-S3-DIP","Seeed Studio XIAO Series Library:XIAO-ESP32S3-DIP","1",""
+"100nf","MyLibrary:C_0805_2012Metric_HandSolder_EDITED","69","C476766"
+"LED_WS2812B","ScottoKeebs_Components:LED_WS2812B_EDITED","69","C2843785"
