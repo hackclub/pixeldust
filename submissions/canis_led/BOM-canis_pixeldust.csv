@@ -1,0 +1,6 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"D22,D35,D33,D18,D30,D20,D27,D34,D26,D29,D16,D21,D28,D23,D31,D17,D32,D19,D24,D25";"LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm";20;"WS2812B";;;
+2;"C1";"C_0603_1608Metric";1;"100nF";;;
+3;"R1";"R_0603_1608Metric";1;"330 ohm";;;
+4;"U1";"XIAO-RP2040-DIP";1;"XIAO-RP2040-DIP";;;
+5;"SW1";"SW_PUSH_6mm_H5mm";1;"SW_Push";;;
