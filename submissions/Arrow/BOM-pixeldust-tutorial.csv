@@ -1,0 +1,6 @@
+Comment,Footprint,Quantity,LCSC
+100uF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1,C15008
+4.7nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,3,C1538
+WS2812B,LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,9,
+XIAO-RP2040-DIP,XIAO-RP2040-DIP,1,
+SW_Push,SW_Cherry_MX_1.00u_PCB,2,
