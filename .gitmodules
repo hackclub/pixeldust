@@ -1,0 +1,3 @@
+[submodule "pyramid-of-brightness"]
+	path = submissions/pyramid-of-brightness
+	url = https://github.com/WilmervH/pyramid-of-brightness
