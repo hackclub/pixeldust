@@ -1,0 +1,5 @@
+Comment,Footprint,Quantity,LCSC
+R_Small,Resistor_SMD:R_0805_2012Metric,1,0.10$
+C_Polarized,Capacitor_THT:CP_Radial_D8.00mm_P3.50mm,$0.5
+WS2812B,LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,40
+XIAO-RP2040-DIP,XIAO-RP2040-DIP,1
