@@ -237,7 +237,8 @@ const Guidelines = () => {
 
         <p className="mt-4">
           In the submission folder, create a new folder with your board name. Copy README.md from the <code>!Template</code> folder and fill in your
-          info. Please add lots of pictures of your board!! e.g. renders of your PCB, the schematic and the pcb design itself
+          info. Please add lots of pictures of your board!! e.g. renders of your PCB, the schematic and the pcb design itself,... If you have any
+          questions with the info in the README.md, don't hesitate to ask on #pixeldust on Slack!
         </p>
 
         <p className="mt-4">
@@ -247,7 +248,8 @@ const Guidelines = () => {
         </p>
 
         <p className="mt-4">
-          In your submission folder, create a new folder called <code>src</code>. This is where you will put your KiCad or any EDA files.
+          In your submission folder, create a new folder called <code>src</code>. This is where you will put your KiCad or any EDA files. Please
+          delete the backup files before uploading!
         </p>
 
         <p className="mt-4">

@@ -14,6 +14,7 @@ Wokwi link: [https://wokwi.com/projects/XXXXXX](https://wokwi.com/projects/XXXXX
 
 <!-- Uncomment the line below if you need a soldering iron -->
 <!-- ⚠️ I would like to [reason for iron], so I would need a soldering iron. -->
+<!-- You can also get a 65W (usb c required) 55x55mm hot plate if you prefer that over an iron (may include solder paste) -->
 
 Describe your board in 2-3 sentences. What are you making? What will it do? Please add a lot of pictures here!!
 
@@ -21,14 +22,15 @@ A simplified BOM table
 (pls include rough pricing of any extra components you're using)
 
 <!-- Example: -->
+<!-- For the LCSC column, you can replace it with a Link column if you want to, and include the links for the parts that you want to get -->
 
-| Comment           | Footprint                                      | Quantity | LCSC     | Cost   |
-|-------------------|------------------------------------------------|----------|----------|--------|
-| 100uF             | C_1206_3216Metric_Pad1.33x1.80mm_HandSolder    | 1        | C15008   | 0.0682$|
-| 4.7nF             | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    | 3        | C1538    | 0.0011$|
-| WS2812B           | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm             | 9        |          |
-| XIAO-RP2040-DIP   | XIAO-RP2040-DIP                                | 1        |          |
-| Cherry MX         | SW_Cherry_MX_1.00u_PCB                         | 2        |          | 6.48$ for 8, 1.62$ for 2 |
+| Part              | Quantity | LCSC     | Cost   |
+|-------------------|----------|----------|--------|
+| 100uF             | 1        | C15008   | 0.0682$|
+| 4.7nF             | 3        | C1538    | 0.0011$|
+| WS2812B           | 9        |          |
+| XIAO-RP2040-DIP   | 1        |          |
+| Cherry MX         | 2        |          | 6.48$ for 8, 1.62$ for 2 |
 
 Tell us a little bit about your design process. What were some challenges? What helped?
 
