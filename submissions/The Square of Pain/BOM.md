@@ -1,0 +1,14 @@
+| Part                                         | Quantity | Price    | Link     |
+| -------------------------------------------- | -------- | -------- | -------- |
+| ESP32 C3 SuperMini                           | 1        | $2.5     | https://www.aliexpress.com/item/1005007987843178.html?algo_pvid=332b0dfe-0b60-4359-91af-c06da72a52c8&algo_exp_id=332b0dfe-0b60-4359-91af-c06da72a52c8-1&pdp_ext_f=%7B%22order%22:%2216416%22,%22eval%22:%221%22,%22orig_sl_item_id%22:%221005007987843178%22,%22orig_item_id%22:%221005008238241339%22%7D&pdp_npi=4@dis!USD!7.17!0.99!!!52.22!7.23!@2101c5b217443896553644626e69ed!12000043168852730!sea!CA!6304712323!ABX&curPageLogUid=mqn28sV4FYs2&utparam-url=scene:search%7Cquery_from:|
+| SK6812MINI-E Neopixels                       | 200      | $11   | https://www.lcsc.com/product-detail/RGB-LEDs-Built-in-IC_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.html?s_z=n_SK6812MINI-E%2520Neopixels |
+| 6 pin usb-c connector                        | 5        | $1     | https://www.lcsc.com/product-detail/USB-Connectors_Korean-Hroparts-Elec-TYPE-C-31-M-17_C283540.html?s_z=n_usb-c%2520receptical%25206p |
+| 100nF SMD 0805 capacitors                    | 200      | $0.25    | https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0805KRX7R9BB104_C49678.html?s_z=n_100nF%2520SMD%25200805 |
+| 5.1kΩ resistors                              | 100      | $0.25    | https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0603FR-075K1L_C105580.html?s_z=n_Resistor_SMD%253AR_0603_1608Metric_Pad0.98x0.95mm_HandSolder%25205.1k |
+| 2.2uH inductor                               | 1        | $0.50    | https://www.lcsc.com/product-detail/Power-Inductors_Sumida-CDRH2D14NP-2R2NC_C167267.html?s_z=n_(Inductor)CDRH2D14NP-2R2NC%253ACDRH2D14NP-2R2NC |
+| 4.7uF capacitor                              | 20        | $0.50   | https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.html?s_z=n_CL21A475KAQNNNE |
+| 10uF capacitor                               | 20        | $0.50      | https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.html?s_z=n_CL21A106KAYNNNE |
+| Schottky diode                               | 50       | $0.75  | https://www.lcsc.com/product-detail/Schottky-Diodes_MDD-Microdiode-Semiconductor-SS14_C2480.html?s_z=n_ss14 |
+| TI buck converter                            | 1        | $2      | https://www.lcsc.com/product-detail/DC-DC-Converters_Texas-Instruments-LM3671MF-3-3-NOPB_C201586.html?s_z=n_LM3671MF-3.3%252FNOPB |
+| PCBs                                         | 1        | $30      | JLCPCB |
+| Total Price                                  |          | $50      |  |
