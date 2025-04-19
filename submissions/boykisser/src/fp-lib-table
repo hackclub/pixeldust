@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Pixeldust")(type "KiCad")(uri "${KIPRJMOD}/footprints/Pixeldust.pretty")(options "")(descr ""))
+)

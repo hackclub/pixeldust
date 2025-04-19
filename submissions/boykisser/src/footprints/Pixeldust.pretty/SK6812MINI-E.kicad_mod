@@ -1,0 +1,118 @@
+(footprint "SK6812MINI-E"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b88284fb-aaa4-42d6-9cad-a972e703847a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SK6812-MINI-E"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f39cdc37-60ce-429a-b3e2-aa8b995dec58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb4fb170-6a3d-4321-a9ca-013f6b869b58")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2db048a-16a8-4c57-9eb9-e64058f2a278")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3701ace4-40c9-4839-911d-a52580d2f012")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d6167f7d-a14f-40d6-967b-9af1e73cb3fb")
+	)
+	(pad "1" smd rect
+		(at -2.6 -0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4d38ce85-6493-490c-9a84-0708ba0fe35e")
+	)
+	(pad "2" smd roundrect
+		(at 2.6 -0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.2)
+		(chamfer top_right)
+		(uuid "686a830c-3078-4363-b8a6-a13372992f00")
+	)
+	(pad "3" smd rect
+		(at 2.6 0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "26377afe-6623-4419-aa1c-3c85ec60980b")
+	)
+	(pad "4" smd rect
+		(at -2.6 0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b4407596-3d45-4321-b92f-e6ca5004a7cc")
+	)
+	(model "${KIPRJMOD}/3d/LED_SK6812MINI-E.step"
+		(offset
+			(xyz 0 -5.075 -0.95)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 0)
+		)
+	)
+)
