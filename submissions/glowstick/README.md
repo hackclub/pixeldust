@@ -1,6 +1,6 @@
 ---
 name: "strawberry"
-slack_id: "U07D59XCG4U"
+slack_id: "U08290982KU"
 github_handle: "@return-misaPuding"
 tutorial: none
 wokwi: "https://wokwi.com/projects/428760578626492417"
