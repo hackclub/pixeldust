@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,BatteryHolder_Keystone_3002_1x2032,1,Battery_Cell,
+C1,0805,1,100uF,
+"C2, C3, C4, C5, C6, C7",0603,6,4.7nF,
+"D1, D10, D11, D12, D13, D14, D15, D16, D17, D18, D2, D3, D4, D5, D6, D7, D8, D9",LED_SK6812MINI,18,SK6812MINI,
+J1,PinHeader_1x04_P2.54mm_Vertical,1,Conn_01x04_MountingPin,
+J2,usb-PCB,1,USB_A,
+J3,PinHeader_1x02_P2.54mm_Vertical,1,Conn_01x02_Pin,
+"SW1, SW2, SW3",SW_PUSH_6mm,3,SW_Push,
+U1,XIAO-ESP32C3-DIP,1,XIAO-ESP32-C3-DIP,

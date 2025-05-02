@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -125,7 +125,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -139,7 +139,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -241,7 +241,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|850900|393700|3d4db789-d27a-4c94-b0e2-7d9623e6df9f|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "power_pin_not_driven|190500|749300|8a6407ab-0eea-43bb-abf3-bf68fa4bded4|00000000-0000-0000-0000-000000000000|/5ae00f94-a6ae-4cd8-a215-650e0a230809|/5ae00f94-a6ae-4cd8-a215-650e0a230809|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|444500|749300|cef6a7f9-2a45-4656-b99d-726956e7743b|00000000-0000-0000-0000-000000000000|/5ae00f94-a6ae-4cd8-a215-650e0a230809|/5ae00f94-a6ae-4cd8-a215-650e0a230809|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|749300|393700|af5bd959-d7e5-4487-b3ea-9bdfbe577018|00000000-0000-0000-0000-000000000000|/5ae00f94-a6ae-4cd8-a215-650e0a230809|/5ae00f94-a6ae-4cd8-a215-650e0a230809|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|901700|469900|f2a8c156-48de-4a78-b7fe-7e1dde0ac9c1|00000000-0000-0000-0000-000000000000|/5ae00f94-a6ae-4cd8-a215-650e0a230809|/5ae00f94-a6ae-4cd8-a215-650e0a230809|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -612,7 +633,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "production/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
