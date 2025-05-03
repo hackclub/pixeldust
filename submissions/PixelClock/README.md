@@ -9,8 +9,6 @@ wokwi: https://wokwi.com/projects/429875870626598913
 
 [https://wokwi.com/projects/429875870626598913](https://wokwi.com/projects/429875870626598913)
 
-Note: I couldn't get wokwi's neopixel grid to actually do things, but I'm decently confident that my code will work or need pretty small adjustments.
-
 ⚠️ I would like to solder way more than 50 neopixels and a bunch of caps, so I would need a hotplate.
 
 This is a grid of SK6821MINI leds. It is designed mainly to be used as a clock, but the surrounding leds could also be used for other things, and I'm planning on adding a alarm with a webpage later.
