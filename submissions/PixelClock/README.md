@@ -15,7 +15,7 @@ Note: I couldn't get wokwi's neopixel grid to actually do things, but I'm decent
 
 This is a grid of SK6821MINI leds. It is designed mainly to be used as a clock, but the surrounding leds could also be used for other things, and I'm planning on adding a alarm with a webpage later.
 
-A simplified BOM table
+BOM
 
 |   Comment     |   Footprint                                   |   Quantity    |   LCSC        |   Price   |
 |---------------|-----------------------------------------------|---------------|---------------|-----------|
