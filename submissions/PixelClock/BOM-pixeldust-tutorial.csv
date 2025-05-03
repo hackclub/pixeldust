@@ -1,0 +1,5 @@
+Comment,Footprint,Quantity,LCSC,Price
+100nF,C_0201_0603Metric_Pad0.64x0.40mm_HandSolder,133,C30926,$0.44 
+10uF,C_0201_0603Metric_Pad0.64x0.40mm_HandSolder,1,C7432790,$0.38 
+XIAO-RP2040-DIP,XIAO-RP2040-DIP,1,,
+Neopixel,SK6812MINI,133,,
