@@ -3,7 +3,7 @@ import machine
 import neopixel
 
 np = neopixel.NeoPixel(machine.Pin(0), 133)
-
+#TODO add wifi time grab
 DIGITS = {
     '0': [
         1, 1, 1,
@@ -100,16 +100,16 @@ last_update = time.ticks_ms()
 update_interval = 1000
 
 while True:
-    current_time = time.ticks_ms()
-    if time.ticks_diff(current_time, last_update) >= update_interval:
-        t = time.localtime()
-        hours = t[3] % 24
-        minutes = t[4]
-        time_str = f"{hours:02d}{minutes:02d}"
-        clear_matrix()
-        display_digit(time_str[0], 1)
-        display_digit(time_str[1], 5)
-        display_digit(time_str[2], 9)
-        display_digit(time_str[3], 13)
-        np.write()
-        last_update = current_time
+    now = time.localtime()
+    hour = now[3]
+    minute = now[4]
+    time_str = f"{hour:02d}{minute:02d}"
+
+    print(time_str)
+    clear_matrix()
+    display_digit(time_str[0], 1)
+    display_digit(time_str[1], 5)
+    display_digit(time_str[2], 9)
+    display_digit(time_str[3], 13)
+    np.write()
+    time.sleep(1)
