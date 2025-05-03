@@ -26,5 +26,5 @@ A simplified BOM table
 
 Some images of your design (make sure to include both the PCB and Schematic!):
 
-![Schematic](schematic.png)
-![PCB](pcb.png)
+![Schematic](./Schematic.png)
+![PCB](./PCB.png)
