@@ -11,10 +11,10 @@ github_handle: "@Programer6"
 tutorial: [https://pixeldust.hackclub.com/guidelines](https://pixeldust.hackclub.com/guidelines)
 
 
-wokwi: [https://wokwi.com/projects/XXXXXX](https://wokwi.com/projects/XXXXXX)  
+wokwi: [https://wokwi.com/projects/430030406209979393](https://wokwi.com/projects/430030406209979393)  
 
 
-# YOUR PROJECT NAME
+# 10 * 10 Audio visualizer 
 
 
 Wokwi link: [https://wokwi.com/projects/430030406209979393](https://wokwi.com/projects/430030406209979393)
