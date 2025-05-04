@@ -1,0 +1,12 @@
+Id;Designator;Footprint;Quantity;Designation;LCSC;Comments
+1;R2,R3;R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;2;100k;C96346;100K resistor
+2;D6,D10,D7,D8,D11,D9,D13,D2,D5,D4,D3,D12;LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm;12;NeoPixel_THT;Surface mounted Neopixel;
+3;C5,C6,C7,C4;C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;4;4.7nF;C98192;4.7nF cap
+4;U1;XIAO-RP2040-DIP;1;XIAO-RP2040-DIP;;
+5;C9,C8;C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;2;100uF;C141660;100uF cap
+6;J1;Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal;1;AudioJack2;;STX-3000 Audio Jack
+7;R4,R1;R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;2;10k;C84376;10K resistor
+8;R5;R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;1;100;C105577;100Ohm Resistor
+9;C1;C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;1;1uF;C28323;Decoupling Cap
+10;D1;SOT-665;1;PESD3V3L4UW;C552518;Surge Protection Chip
+11;C3;C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;1;1.5nF;C541572;
