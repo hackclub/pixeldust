@@ -1,3 +1,6 @@
 [submodule "pyramid-of-brightness"]
 	path = submissions/pyramid-of-brightness
 	url = https://github.com/WilmervH/pyramid-of-brightness
+[submodule "submissions/pxlboard"]
+	path = submissions/pxlboard
+	url = git@github.com:/taciturnaxolotl/pxlboard
