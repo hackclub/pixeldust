@@ -29,24 +29,32 @@ I learned PCB design from hackpad/hackboard. I am super proud of the wiring on t
 <img width="913" alt="image" src="https://github.com/user-attachments/assets/bed30fc6-9f47-47c8-87dd-2e8985229b78" />
 
 
+## BOM:
+
 
 | Designator                                                                                                                               | Footprint                                 | Quantity | Value                     | LCSC Part #             |     COST |
 |------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|----------|---------------------------|--------------------------|----------|
 | C1, C2, C3, C4, C5                                                                                                                       | 0603                                      | 5        | 1u                        |      C15849                    | 0.0510 |
 | C6                                                                                                                                       | 0603                                      | 1        | 10u                       |      C19702                    | 0.0120 |
 | D*  | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm         | 85       | WS2812B                   |           N/A               | N/A |
-| J1                                                                                                                                       | USB_C_Receptacle_XKB_U262-16XN-4BVC11     | 1        | USB_C_Receptacle_USB2.0_14P |        DNP                  |
+| J1                                                                                                                                       | USB_C_Receptacle_XKB_U262-16XN-4BVC11     | 1        | USB_C_Receptacle_USB2.0_14P |        C319148              |   0.2497    |
+| R1, R2, R5, R6, R7                                                                                                                       | 0603                                      | 5        | 5.1K                      |    C23186                 | 0.0100     |
+| R3                                                                                                                                       | 0603                                      | 1        | 100n                      |     C22775               | 0.0020      |
+| R4                                                                                                                                       | 0603                                      | 1        | 10k                       |      C25804               | 0.0020     |
+| SW1                                                                                                                                      | RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm | 1        | RotaryEncoder_Switch      |   N/A. EC11 rotary encoder with button  https://www.aliexpress.us/item/3256807457768762.html       |   2.13           |
+| U1                                                                                                                                       | ESP32-S3-WROOM-1                          | 1        | ESP32-S3-WROOM-1          |      C9900133532                    | $0.0365 |
+| U2                                                                                                                                       | SOT-223-3_TabPin2                         | 1        | NCP1117-3.3_SOT223        |          C5400         | 0.0976       |
+
+### DNP (Do Not Place):
+| Designator                                                                                                                               | Footprint                                 | Quantity | Value                     | LCSC Part #             |     COST |
+|------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|----------|---------------------------|--------------------------|----------|
 | J2                                                                                                                                       | PinHeader_1x03_P2.54mm_Vertical           | 1        | Conn_01x03_Socket         |          DNP                |
 | J3                                                                                                                                       | PinHeader_1x03_P2.54mm_Vertical           | 1        | Conn_01x03_Pin            |             DNP             |
 | J4                                                                                                                                       | PinHeader_1x02_P2.54mm_Vertical           | 1        | Conn_01x02_Pin            |              DNP            |
 | J5                                                                                                                                       | PinHeader_1x02_P2.54mm_Vertical           | 1        | Conn_01x02_Socket         |                 DNP         |
 | J6, J7, J8, J9                                                                                                                           | PinHeader_1x04_P2.00mm_Vertical           | 4        | Conn_01x04                |                    DNP      |
-| R1, R2, R5, R6, R7                                                                                                                       | 0603                                      | 5        | 5.1K                      |    C23186                 | 0.0100     |
-| R3                                                                                                                                       | 0603                                      | 1        | 100n                      |     C22775               | 0.0020      |
-| R4                                                                                                                                       | 0603                                      | 1        | 10k                       |      C25804               | 0.0020     |
-| SW1                                                                                                                                      | RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm | 1        | RotaryEncoder_Switch      |   N/A. EC11 rotary encoder with button         |              |
-| U1                                                                                                                                       | ESP32-S3-WROOM-1                          | 1        | ESP32-S3-WROOM-1          |      C9900133532                    | $0.0365 |
-| U2                                                                                                                                       | SOT-223-3_TabPin2                         | 1        | NCP1117-3.3_SOT223        |          C5400         | 0.0976       |
+
+
 
 *
 
